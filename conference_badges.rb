@@ -7,5 +7,5 @@ end
 def batch_badge_creator(array)
   speaker_badges = []
   array.each{|name| speaker_badges.push("Hello, my name is #{name}.")}
-
+  speaker_badges
 end
